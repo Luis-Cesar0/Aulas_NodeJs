@@ -1,18 +1,3 @@
-// 1. Criar um novo livro : 
-    
-//     O livro deve conter :
-    
-//     - Título
-//     - Autor
-//     - Ano de Publicação
-//     - Status (disponível ou emprestado)
-// 2. Criar uma biblioteca (para reunir os livros)
-    
-//      Os objetos do tipo biblioteca contarão com as seguintes funções:
-    
-//     - adicionar livros à biblioteca
-//     - listar os livros disponíveis.
-
 class livro{
     #status
     constructor(titulo,autor,anoPubli,status){
