@@ -33,3 +33,5 @@ const animal1 = new Animal('gato' ,'gordo', 'laranja','Cleitinho')
 console.log(animal1.getNome())
 
 const animal2 = new Animal('cachorro','pequeno','branca', 'belina')
+
+module.exports = Animal
