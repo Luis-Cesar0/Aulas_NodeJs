@@ -11,7 +11,7 @@ class moto extends veiculo{
         this.cilindrada = cilindrada
         this.partida = partida
     }
-    exibirInformacoesMoto(){
+    exibirInformacoes(){
         super.exibirInformacoes()
         console.log(`Cilindrada: ${this.cilindrada}`)
         console.log(`Partida: ${this.partida}`)
@@ -19,4 +19,4 @@ class moto extends veiculo{
 }
 
 const moto1 = new moto('Honda', 'Bros', 2020, 15000,160,'eletrica')
-moto1.exibirInformacoesMoto()
+moto1.exibirInformacoes()

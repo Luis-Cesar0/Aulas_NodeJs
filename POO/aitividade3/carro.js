@@ -12,7 +12,7 @@ class carro extends veiculo{
         this.portas = portas
         this.combustivel = combustivel
     }
-    exibirInformacoesCarro(){
+    exibirInformacoes(){
         super.exibirInformacoes()
         console.log(`Portas: ${this.portas}`)
         console.log(`Combustível: ${this.combustivel}`)
@@ -20,4 +20,4 @@ class carro extends veiculo{
 }
 
 const carro1 = new carro('fiat' ,'siena',2009,25000,4,'gazolina' )
-carro1.exibirInformacoesCarro()
+carro1.exibirInformacoes()
